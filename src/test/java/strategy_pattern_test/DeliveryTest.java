@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Test;
 
 public class DeliveryTest {
     @Test
+    void deliveryPrinceTest() {
+
+    }
+
+    @Test
     void simpleStandardDeliveryTest() {
 
     }
