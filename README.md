@@ -8,7 +8,7 @@
 
 ![](https://github.com/kiarashk8128/SWLab-HW6/blob/main/images/Screenshot%202024-05-16%20162623.png?raw=true)
 
-### Strategy Pattern
+## Strategy Pattern
 
 از الگوری استراتژی استفاده می‍کنیم و یک اینترفیس برای تحویل کالا می‌نویسیم که متدی برای محاسبه قیمت ارسال دارد.
 
