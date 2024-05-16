@@ -2,7 +2,7 @@ package strategy_pattern;
 
 public class StandardDelivery implements DeliveryMethod {
     @Override
-    public int deliveryPrice(int weight) {
-        return 0;
+    public double deliveryPrice(double weight) {
+        return weight * 2.5;
     }
 }

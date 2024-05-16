@@ -14,10 +14,10 @@ public class DeliveryTest {
         Package deliveryPackage = new Package(10);
 
         DeliveryMethod standardDelivery = new StandardDelivery();
-        assertEquals(standardDelivery.deliveryPrice(deliveryPackage.getPrice()), 25);
+        assertEquals(standardDelivery.deliveryPrice(deliveryPackage.getWeight()), 25);
 
         DeliveryMethod expressDelivery = new ExpressDelivery();
-        assertEquals(expressDelivery.deliveryPrice(deliveryPackage.getPrice()), 35);
+        assertEquals(expressDelivery.deliveryPrice(deliveryPackage.getWeight()), 35);
     }
 
     @Test
