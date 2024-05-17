@@ -2,11 +2,11 @@
 
 اسکلت کلی پروژه را در قالب یک پروژه جاوا می‌نویسیم.
 
-![](https://github.com/kiarashk8128/SWLab-HW6/blob/main/images/Screenshot%202024-05-16%20184136.png?raw=true)
+![image](https://github.com/kiarashk8128/SWLab-HW6/assets/62250863/d498aec7-cc16-4d10-93ab-c638081365b5)
 
 کلاسِ Package دارای متغییرهایی برای ذخیره state و حالتِ برنامه و constructor و getter و setter مربوط به این متغییرهاست.
 
-![](https://github.com/kiarashk8128/SWLab-HW6/blob/main/images/Screenshot%202024-05-16%20162623.png?raw=true)
+![image](https://github.com/kiarashk8128/SWLab-HW6/assets/62250863/dda0fe75-ef92-4ce0-98c5-4d47d357c374)
 
 ## State Pattern
 
