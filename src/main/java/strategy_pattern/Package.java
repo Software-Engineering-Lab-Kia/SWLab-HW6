@@ -1,41 +1,39 @@
 package strategy_pattern;
+import state_pattern.State;
 
 public class Package {
     private int weight;
-    private String method;
-    private int price;
-    private String status;
+    private DeliveryMethod deliveryMethod;
+    private State state;
 
     public Package(int weight) {
         this.weight = weight;
-        // TODO
+        this.state = null;
+        this.deliveryMethod = null;
     }
 
-    public void setMethod(String method) {
-        this.method = method;
+    public void setDeliveryMethod(DeliveryMethod deliveryMethod) {
+        this.deliveryMethod = deliveryMethod;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
+    public void setState(State state) {
+        this.state = state;
+        this.state.changeState();
     }
 
     public int getWeight() {
-        return weight;
+        return this.weight;
     }
 
-    public String getMethod() {
-        return method;
+    public DeliveryMethod getDeliveryMethod() {
+        return this.deliveryMethod;
     }
 
-    public int getPrice() {
-        return price;
+    public double getPrice() {
+        return this.deliveryMethod.deliveryPrice(this.weight);
     }
 
-    public String getStatus() {
-        return status;
+    public State getState() {
+        return this.state;
     }
 }
